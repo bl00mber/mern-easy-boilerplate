@@ -1,12 +1,11 @@
 {
   "name": "mern-easy-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=development node server/index.js",
     "start:demon": "NODE_ENV=development nodemon server/index.js",
     "start:prod": "NODE_ENV=production node server/index.js",
-    "build": "rimraf dist && NODE_ENV=production webpack --progress --verbose --display-error-details --config webpack/common.config.js"
+    "build": "NODE_ENV=production webpack --progress --verbose --display-error-details --config webpack/common.config.js"
   },
   "author": "Nikita Lebedev",
   "license": "ISC",
@@ -27,20 +26,14 @@
     "eslint": "^1.10.3",
     "eslint-loader": "^1.2.1",
     "eslint-plugin-react": "^3.16.1",
-    "file-loader": "^0.9.0",
-    "imports-loader": "^0.6.5",
-    "json-loader": "^0.5.4",
-    "npm-install-webpack-plugin": "^2.0.2",
     "postcss-import": "^8.1.2",
     "postcss-loader": "^1.0.0",
+    "react-hot-loader": "^1.3.1",
     "redux-logger": "^2.7.0",
-    "resolve-url-loader": "^1.6.0",
     "style-loader": "^0.13.1",
     "stylus-loader": "^2.3.1",
-    "url-loader": "^0.5.7",
     "webpack": "^1.12.12",
     "webpack-dev-middleware": "^1.5.1",
-    "webpack-dev-server": "^1.16.2",
     "webpack-hot-middleware": "^2.6.4",
     "webpack-merge": "^0.15.0"
   },
