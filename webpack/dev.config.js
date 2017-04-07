@@ -8,10 +8,6 @@ module.exports = {
     './client/index',
   ],
 
-  output: {
-    publicPath: '/static/',
-  },
-
   module: {
     loaders: [{
       test: /\.css$/,
