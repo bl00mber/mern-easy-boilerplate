@@ -52,4 +52,4 @@ app.listen(port, (err) => {
   } else {
     console.info('==> 🌎  Express server listening on port %s', port)
   }
-})
+});
